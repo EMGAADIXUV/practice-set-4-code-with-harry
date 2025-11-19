@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<form action="/submit-booking" method="POST">
+        <h2>Vacation Booking</h2>
+        
+        <p>
+            <label for="dest">Destination:</label>
+            <select id="dest" name="destination" required>
+                <option value="">-- Choose Destination --</option>
+                <option value="paris">Paris</option>
+                <option value="tokyo">Tokyo</option>
+                <option value="maldives">Maldives</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="checkin">Check-in Date:</label>
+            <input type="text" id="checkin" name="checkin_date" placeholder="MM/DD/YYYY" required>
+        </p>
+        
+        <p>
+            <label for="checkout">Check-out Date:</label>
+            <input type="text" id="checkout" name="checkout_date" placeholder="MM/DD/YYYY" required>
+        </p>
+
+        <p>
+            <label for="adults">Adults:</label>
+            <input type="text" id="adults" name="adults" size="3" required value="1">
+        </p>
+        
+        <p>
+            <label for="children">Children:</label>
+            <input type="text" id="children" name="children" size="3" value="0">
+        </p>
+
+        <p>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="full_name" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+        </p>
+        
+        <p>
+            <button type="submit">Book Trip</button>
+        </p>
+        
+    </form>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
